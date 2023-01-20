@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-image: url('../public/profile.jpg');
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
 }
 
 .App-logo {
@@ -14,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +39,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: rgb(100, 100, 100);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #868686;
+  color: white;
+}
+
+.topnavname {
+  float: left;
+}
+
+.topnavcontent {
+  float: right;
 }

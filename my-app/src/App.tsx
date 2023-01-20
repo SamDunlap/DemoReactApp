@@ -5,6 +5,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className="topnav">
+        <a className="topnavname" href="#home">Sam Dunlap</a>
+        <a className="topnavcontent" href="#video">Video</a>
+        <a className="topnavcontent" href="#stills">Stills</a>
+        <a className="topnavcontent" href="#contact">Contact</a>
+        <a className="topnavcontent" href="#history">History</a>
+      </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -16,7 +23,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Sam
         </a>
       </header>
     </div>
